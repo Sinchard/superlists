@@ -16,6 +16,7 @@ class NewVisitorTest(unittest.TestCase):
         self.browser.implicitly_wait(3)
         # 她注意到网页的标题和头部都包含“To-Do”这个词
         self.assertIn('To-Do', self.browser.title)
+        self.fail("Finish function test!")
         # 应用邀请她输入一个待办事项
         # 她在一个文本框中输入了“Buy peacock feathers（购买孔雀羽毛） ”
         # 伊迪丝的爱好是使用假蝇做饵钓鱼
